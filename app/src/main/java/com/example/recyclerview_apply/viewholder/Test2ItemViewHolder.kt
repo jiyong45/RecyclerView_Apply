@@ -65,7 +65,7 @@ class Test2ItemViewHolder (view: View): RecyclerView.ViewHolder(view){
                     val size = parent.adapter?.itemCount ?: 0
                     if(position == 0){
                         outRect.set(100,0,50,0)
-                    }else if(position == 0){
+                    }else if(position == size){
                         outRect.set(50,0,100,0)
                     }else {
                         outRect.set(50,0,50,0)
